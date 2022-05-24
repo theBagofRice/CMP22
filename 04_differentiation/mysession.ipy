@@ -1,0 +1,60 @@
+# coding: utf-8
+
+%%time
+mylist = []
+for i in range(100):
+    mylist.append(i)
+mylist = []
+for i in range(10):
+    %time mylist.append(i)
+%history
+%%time
+mylist = []
+for i in range(100):
+    mylist.append(i)
+%%time
+mylist = []
+for i in range(100):
+    mylist.append(i)
+%%time
+mylist = []
+for i in range(100):
+    mylist.append(i)
+%%time
+mylist = []
+for i in range(100):
+    mylist.append(i)
+%%time
+mylist = []
+for i in range(100):
+    mylist.append(i)
+%%time
+mylist = []
+for i in range(100):
+    mylist.append(i)
+%%time
+mylist = []
+for i in range(100):
+    mylist.append(i)
+mylist = []
+for i in range(10):
+    %time mylist.append(i)
+mylist = []
+for i in range(10):
+    %time mylist.append(i)
+%history
+x = 1.0
+from numpy import *
+
+%who float
+%matplotlib notebook
+from numpy import *
+import matplotlib.pyplot as plt
+plt.plot(mylist,sin(mylist))
+plt.show()
+%matplotlib notebook
+from numpy import *
+import matplotlib.pyplot as plt
+plt.plot(mylist,sin(mylist))
+plt.show()
+%save -r mysession 0-1000  # lines 0 to 1000
