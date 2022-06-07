@@ -1,0 +1,20 @@
+First we need to install conda, which can be done via https://docs.conda.io/en/latest/miniconda.html
+Then we want to create an environment:
+
+conda create -n dbtut python=3.9
+
+which we enter via:
+
+conda activate dbtut
+
+We then have to install jupyter via:
+
+conda install jupyter
+
+At which point we can enter the notebook provided via
+
+jupyter notebook . 
+
+or 
+
+jupyter lab .
